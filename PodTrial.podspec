@@ -1,28 +1,16 @@
-#
-# Be sure to run `pod lib lint PodTrial.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "PodTrial"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PodTrial."
+  s.summary          = "PodTrial is test pod"
   s.description      = <<-DESC
-                       An optional longer description of PodTrial
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       this is description.
+                       * yes, this is description.
+                        + oh yes, this is description
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PodTrial"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/Hanyuu-K3/PodTrial"
   s.license          = 'MIT'
   s.author           = { "HANYU, Koji" => "hanyuu-k3@mail.dnp.co.jp" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PodTrial.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Hanyuu-K3/PodTrial.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -31,8 +19,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'PodTrial' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
